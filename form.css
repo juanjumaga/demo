@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+    margin:0;
+    padding:0;
+    /* demo */
+}
+
+.success {
+    color: #0000ff;
+    text-align:center;
+    /* demo */
+}
+
+.error {
+    color:#C00000;
+}
+
+body {
+    /* demo */
+    color:#777;
+    background:#FEFEFE;
+}
+
+.container {
+    max-width:400px;
+    /* demo */
+    position:relative;
+}
+
+#contact input[type="text"], /* demo */ #contact input[type="url"], #contact textarea, /* demo */
+
+#contact {
+    /* demo */
+    margin:50px 0;
+}
+
+#contact h3 {
+    color:#5f92ba;
+    /* demo */
+    font-weight: 500;
+}
+
+#contact h4 {
+    /* demo */
+    font-size:13px;
+}
+
+fieldset {
+    border:medium none !important;
+    /* demo */
+    width:100%;
+}
+
+#contact input[type="text"], /* demo */
+    border:1px solid #CCC;
+/* demo */
+/* demo */
+    padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:/* demo */ textarea:hover {
+    /* demo */
+    transition:border-color 0.3s ease-in-out;
+    border:1px /* demo */;
+}
+
+#contact textarea {
+    /* demo */
+    resize:none;
+}
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    /* demo */
+    padding:10px;
+    font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    background:#70addd;
+    /* demo */
+}
+
+#contact button[type="submit"]:/* demo */rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #AAA;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
